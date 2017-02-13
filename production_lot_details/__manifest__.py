@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
-    "name": """Product Details""",
-    "summary": """Allows to add links with describes of products.""",
+    "name": """Production Lot Details""",
+    "summary": """Allows to add links with details for production lots.""",
     "category": "Extra Tools",
     "images": ["static/description/icon.png"],
     "version": "1.0.0",
@@ -14,11 +14,12 @@
     # "currency": "EUR",
 
     "depends": [
-        'product', 'base_details',
+        'stock', 'base_details',
     ],
     "external_dependencies": {"python": [], "bin": []},
     "data": [
-        'views/product_detail.xml',
+        'data/security_demo.xml',
+        'views/production_lot_detail.xml',
     ],
     "qweb": [
     ],
